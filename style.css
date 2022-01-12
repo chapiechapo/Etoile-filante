@@ -1,0 +1,50 @@
+/*Page accueil*/
+
+/*header*/
+
+/*section*/
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.observatoire {
+  margin-left: 200px;
+  border: blue 1px solid;
+  height: 380px;
+  width: 1200px;
+}
+
+.contenu {
+  margin-top: 50px;
+}
+
+.objets,
+.planétes {
+  font-weight: bold;
+}
+
+.ensemble {
+  display: flex;
+}
+
+.tableau {
+  margin-left: 70px;
+  margin-top: 15px;
+  display: flex;
+  margin-bottom: 35px;
+  width: 400px;
+  height: 400px;
+}
+
+.caroussel {
+  display: flex;
+  margin-left: 200px;
+  width: 550px;
+  margin-top: 15px;
+}
