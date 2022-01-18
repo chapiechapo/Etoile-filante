@@ -3,14 +3,32 @@
 /*header*/
 
 /*section*/
+.association {
+  border-radius: 70px;
+  border: 6px solid white;
+}
+
+.objectif {
+  border-radius: 70px;
+  border: 6px solid white;
+  padding-left: 15px;
+}
+
 h1 {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: white;
 }
 
-h2 {
-  text-align: center;
+h3,
+p {
+  padding-left: 10px;
+}
+
+h4,
+p {
+  padding-left: 10px;
 }
 
 .observatoire {
@@ -20,31 +38,57 @@ h2 {
   width: 1200px;
 }
 
-.contenu {
-  margin-top: 50px;
-}
-
 .objets,
 .planétes {
   font-weight: bold;
 }
 
-.ensemble {
+.tableau {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 390px;
+  border: chartreuse 5px solid;
+  height: 420px;
 }
 
-.tableau {
-  margin-left: 25px;
-  margin-top: 15px;
-  display: flex;
-  margin-bottom: 35px;
-  width: 400px;
+table {
   height: 400px;
+  width: 400px;
+  color: white;
+  margin-right: 65px;
+}
+
+.complement {
+  border: solid 6px blue;
+  display: flex;
+  width: 1400px;
+  height: 950px;
+  margin-left: 20px;
+}
+
+td,
+th {
+  text-align: center;
+  border: white 5px solid;
 }
 
 .caroussel {
   display: flex;
-  margin-left: 200px;
-  width: 550px;
   margin-top: 15px;
+  border: blue 1px solid;
+  flex-direction: row;
+  height: 450px;
+  width: 600px;
+}
+
+@media screen and (max-width: 1130px) {
+  .caroussel {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+.photo {
+  border: tomato 1px solid;
 }

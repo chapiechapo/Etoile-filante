@@ -22,13 +22,18 @@
     <link rel="stylesheet" href="style.css" />
     <title>Association d'astronomie L'étoile filante</title>
   </head>
-  <body>
+  <body class="fond bg-dark">
     <header class="page-accueil">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <div class="container-fluid">
           <a class="navbar-brand ms-2" href="#">
-            <img src="PHOTOS\Filante.jpg
-            " alt="logo" height="220" width="370" />
+            <img
+              src="PHOTOS\Filante.jpg
+            "
+              alt="logo"
+              height="220"
+              width="370"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -52,12 +57,12 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-info mx-5" href="événements.html"
+                <a class="nav-link text-white mx-5" href="événements.html"
                   >EVENEMENTS</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-info mx-5" href="contact.html"
+                <a class="nav-link text-white mx-5" href="contact.html"
                   >CONTACT</a
                 >
               </li>
@@ -66,28 +71,35 @@
         </div>
       </nav>
     </header>
-    <main class="page-accueil col-12 col-sm-12 col-md-12 col-xl-12">
+    <main class="container-fluid">
       <section class="col-12 col-sm-12 col-md-12 col-xl-12">
-        <h1>L'étoile filante</h1>
         <div>
-          <div class="card border-0">
-            <div class="card-body">
-              <img
-                src="PHOTOS\Observatoire.jpg"
-                class="card-img-top"
-                height="400px"
-                alt="observatoire"
-              />
+          <h1>L'étoile filante</h1>
+          <div>
+            <div class="card border-0">
+              <div class="card-body">
+                <img
+                  src="PHOTOS\Observatoire.jpg"
+                  class="card-img-top"
+                  height="400px"
+                  alt="observatoire"
+                />
+              </div>
+              <p class="card-text mx-3 fw-bold">
+                Observatoire de Marcy-L'étoile, 69280
+              </p>
             </div>
-            <p class="card-text mx-3">Observatoire de Marcy-L'étoile, 69280</p>
           </div>
         </div>
-        <div class="contenu">
-          <div class="card border-0" style="max-width: 90rem">
-            <div class="card-body">
+      </section>
+      <br />
+      <section>
+        <div>
+          <div class="card border-0" style="max-width: 100rem">
+            <div class="association card-body bg-dark text-white">
               <h3 class="card-title">L'association</h3>
               <div class="card-text text-dark mb-3">
-                <p class="card-text">
+                <p class="card-text text-white">
                   L’Association Astronomique du Rhône (L'étoile filante) est une
                   association à but non lucratif. Elle fut fondée en 1966 par
                   Patrick de Bordat, et comptent plus d’une trentaine de membres
@@ -123,9 +135,12 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-12 col-xl-12">
+      </section>
+      <br />
+      <section>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
           <div class="card border-0">
-            <div class="card-body">
+            <div class="objectif card-body bg-dark text-white">
               <h4 class="card-title">Objectif</h4>
               <div class="card-text">
                 <p class="card-text">
@@ -143,108 +158,205 @@
             </div>
           </div>
         </div>
-        <br />
-        <div class="ensemble col-12 col-sm-12 col-md-12 col-xl-12">
-          <div class="tableau table-responsive xm-3 sm-3 md-4 lg-6 xl-6">
-            <table class="table table-bordered border-info" style="max-width: 25rem">
-              <thead>
-                <tr>
-                  <th scope="col">Le ciel profond</th>
-                  <th scope="col">Le planétaire</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Les Galaxies</td>
-                  <td>La Lune</td>
-                </tr>
-                <tr>
-                  <td>Les Nébuleuses</td>
-                  <td>Jupitaire</td>
-                </tr>
-                <tr>
-                  <td>Les Amas Stéllaires</td>
-                  <td>Saturne</td>
-                </tr>
-                <tr>
-                  <td>Les Etoiles</td>
-                  <td>Mars</td>
-                </tr>
-                <tr>
-                  <td>Les Eclipses</td>
-                  <td>Vénus</td>
-                </tr>
-                <tr>
-                  <td>Les Comètes</td>
-                  <td>Mercure</td>
-                </tr>
-                <tr>
-                  <td scope="#"></td>
-                  <td>Uranus</td>
-                </tr>
-                <tr>
-                  <td scope="#"></td>
-                  <td>Neptune</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="caroussel col-3 col-sm-3 col-md-4 col-lg-6 col-xl-6  ">
-            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-              <div class="carousel-inner">
-                <div class="carousel-item">
-                  <img src="PHOTOS\nébuleuse.jpg" class="d-block w-100 img-fluid" alt="nébuleuse" title="Nébuleuse">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\mercure.jpg" class="d-block w-100 img-fluid" alt="mercure" title="Mercure">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\saturne.jpg" class="d-block w-100" alt="saturne" title="Saturne">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\lune.jpg" class="d-block w-100" alt="lune" title="lune">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\comete.jpg" class="d-block w-100" alt="comète" title="Comète">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\venus.jpg" class="d-block w-100" alt="venus" title="Vénus">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\uranus.jpg" class="d-block w-100" alt="uranus" title="Uranus">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\eclipse.jpg" class="d-block w-100" alt="éclipse" title="Eclipse">
-                </div>
-                <div class="carousel-item active">
-                  <img src="PHOTOS\Galaxie.jpg" class="d-block w-100" alt="galaxie" title="Galaxie">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\etoile.jpg" class="d-block w-100" alt="étoile" title="Etoile">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\jupitaire.jpg" class="d-block w-100" alt="jupitaire" title="Jupitaire">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\mars.jpg" class="d-block w-100" alt="mars" title="Mars">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\neptune.jpg" class="d-block w-100" alt="neptune" title="Neptune">
-                </div>
-                <div class="carousel-item">
-                  <img src="PHOTOS\amas stellaire.jpg" class="d-block w-100" alt="amas-stéllaire" title="Amas-stéllaire">
-                </div>
+      </section>
+      <br />
+      <section
+        class="complement flex-lg-row flex-md-column ms-md-0 flex-sm-column ms-sm-0"
+      >
+        <div
+          class="tableau col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ms-5"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Le ciel profond</th>
+                <th scope="col">Le planétaire</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Les Galaxies</td>
+                <td>La Lune</td>
+              </tr>
+              <tr>
+                <td>Les Nébuleuses</td>
+                <td>Jupitaire</td>
+              </tr>
+              <tr>
+                <td>Les Amas Stéllaires</td>
+                <td>Saturne</td>
+              </tr>
+              <tr>
+                <td>Les Etoiles</td>
+                <td>Mars</td>
+              </tr>
+              <tr>
+                <td>Les Eclipses</td>
+                <td>Vénus</td>
+              </tr>
+              <tr>
+                <td>Les Comètes</td>
+                <td>Mercure</td>
+              </tr>
+              <tr>
+                <td rowspan="2"></td>
+                <td>Uranus</td>
+              </tr>
+              <tr>
+                <td>Neptune</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="caroussel col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ms-5"
+        >
+          <div
+            id="carouselExampleControlsNoTouching"
+            class="carousel slide"
+            data-bs-touch="false"
+            data-bs-interval="false"
+          >
+            <div class="photo carousel-inner">
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\nébuleuse.jpg"
+                  class="d-block w-100"
+                  alt="nébuleuse"
+                  title="Nébuleuse"
+                />
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\mercure.jpg"
+                  class="d-block w-100"
+                  alt="mercure"
+                  title="Mercure"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\saturne.jpg"
+                  class="d-block w-100"
+                  alt="saturne"
+                  title="Saturne"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\lune.jpg"
+                  class="d-block w-100"
+                  alt="lune"
+                  title="lune"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\comete.jpg"
+                  class="d-block w-100"
+                  alt="comète"
+                  title="Comète"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\venus.jpg"
+                  class="d-block w-100"
+                  alt="venus"
+                  title="Vénus"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\uranus.jpg"
+                  class="d-block w-100"
+                  alt="uranus"
+                  title="Uranus"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\eclipse.jpg"
+                  class="d-block w-100"
+                  alt="éclipse"
+                  title="Eclipse"
+                />
+              </div>
+              <div class="carousel-item active">
+                <img
+                  src="PHOTOS\Galaxie.jpg"
+                  class="d-block w-100"
+                  alt="galaxie"
+                  title="Galaxie"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\etoile.jpg"
+                  class="d-block w-100"
+                  alt="étoile"
+                  title="Etoile"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\jupitaire.jpg"
+                  class="d-block w-100"
+                  alt="jupitaire"
+                  title="Jupitaire"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\mars.jpg"
+                  class="d-block w-100"
+                  alt="mars"
+                  title="Mars"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\neptune.jpg"
+                  class="d-block w-100"
+                  alt="neptune"
+                  title="Neptune"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="PHOTOS\amas stellaire.jpg"
+                  class="d-block w-100"
+                  alt="amas-stéllaire"
+                  title="Amas-stéllaire"
+                />
+              </div>
             </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+        </div>
       </section>
     </main>
     <script
