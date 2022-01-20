@@ -1,6 +1,9 @@
 /*Page accueil*/
 
 /*header*/
+.filante {
+  border: white 5px solid;
+}
 
 /*section*/
 .association {
@@ -33,7 +36,6 @@ p {
 
 .observatoire {
   margin-left: 200px;
-  border: blue 1px solid;
   height: 380px;
   width: 1200px;
 }
@@ -46,25 +48,14 @@ p {
 .tableau {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 390px;
-  border: chartreuse 5px solid;
-  height: 420px;
+  width: 990px;
+  height: 410px;
 }
 
 table {
   height: 400px;
-  width: 400px;
+  width: 445px;
   color: white;
-  margin-right: 65px;
-}
-
-.complement {
-  border: solid 6px blue;
-  display: flex;
-  width: 1400px;
-  height: 950px;
-  margin-left: 20px;
 }
 
 td,
@@ -76,19 +67,65 @@ th {
 .caroussel {
   display: flex;
   margin-top: 15px;
-  border: blue 1px solid;
   flex-direction: row;
-  height: 450px;
-  width: 600px;
+  height: 400px;
+  width: 1400px;
 }
 
-@media screen and (max-width: 1130px) {
-  .caroussel {
-    width: 500px;
-    height: 400px;
-  }
+.carousel-inner {
+  width: 470px;
+  border: white 5px solid;
 }
 
-.photo {
-  border: tomato 1px solid;
+/* footer */
+
+.pied {
+  border: white 5px solid;
+  height: 400px;
+  width: 1560px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-bottom: 15px;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.reseaux {
+  height: 155px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  border: purple 5px solid;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  border: white 5px solid;
+  align-self: center;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  align-self: center;
+}
+
+.twitter {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.partenaire {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+  border: tomato 5px solid;
+  height: 200px;
+  width: 500px;
 }

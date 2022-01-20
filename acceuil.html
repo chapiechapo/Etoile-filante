@@ -23,7 +23,7 @@
     <title>Association d'astronomie L'étoile filante</title>
   </head>
   <body class="fond bg-dark">
-    <header class="page-accueil">
+    <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <div class="container-fluid">
           <a class="navbar-brand ms-2" href="#">
@@ -33,6 +33,7 @@
               alt="logo"
               height="220"
               width="370"
+              class="filante"
             />
           </a>
           <button
@@ -72,7 +73,7 @@
       </nav>
     </header>
     <main class="container-fluid">
-      <section class="col-12 col-sm-12 col-md-12 col-xl-12">
+      <section class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <div>
           <h1>L'étoile filante</h1>
           <div>
@@ -94,7 +95,7 @@
       </section>
       <br />
       <section>
-        <div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
           <div class="card border-0" style="max-width: 100rem">
             <div class="association card-body bg-dark text-white">
               <h3 class="card-title">L'association</h3>
@@ -160,11 +161,9 @@
         </div>
       </section>
       <br />
-      <section
-        class="complement flex-lg-row flex-md-column ms-md-0 flex-sm-column ms-sm-0"
-      >
+      <section>
         <div
-          class="tableau col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ms-5"
+          class="tableau col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ms-2 justify-content-xs-start justify-content-md-center justify-content-lg-center"
         >
           <table>
             <thead>
@@ -209,7 +208,7 @@
           </table>
         </div>
         <div
-          class="caroussel col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ms-5"
+          class="caroussel col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-xs-start justify-content-md-center justify-content-lg-center"
         >
           <div
             id="carouselExampleControlsNoTouching"
@@ -217,13 +216,14 @@
             data-bs-touch="false"
             data-bs-interval="false"
           >
-            <div class="photo carousel-inner">
-              <div class="carousel-item">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
                 <img
                   src="PHOTOS\nébuleuse.jpg"
                   class="d-block w-100"
                   alt="nébuleuse"
                   title="Nébuleuse"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -232,6 +232,7 @@
                   class="d-block w-100"
                   alt="mercure"
                   title="Mercure"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -240,6 +241,7 @@
                   class="d-block w-100"
                   alt="saturne"
                   title="Saturne"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -248,6 +250,7 @@
                   class="d-block w-100"
                   alt="lune"
                   title="lune"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -256,6 +259,7 @@
                   class="d-block w-100"
                   alt="comète"
                   title="Comète"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -264,6 +268,7 @@
                   class="d-block w-100"
                   alt="venus"
                   title="Vénus"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -272,6 +277,7 @@
                   class="d-block w-100"
                   alt="uranus"
                   title="Uranus"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -280,14 +286,16 @@
                   class="d-block w-100"
                   alt="éclipse"
                   title="Eclipse"
+                  height="330"
                 />
               </div>
-              <div class="carousel-item active">
+              <div class="carousel-item">
                 <img
                   src="PHOTOS\Galaxie.jpg"
                   class="d-block w-100"
                   alt="galaxie"
                   title="Galaxie"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -296,6 +304,7 @@
                   class="d-block w-100"
                   alt="étoile"
                   title="Etoile"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -304,6 +313,7 @@
                   class="d-block w-100"
                   alt="jupitaire"
                   title="Jupitaire"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -312,6 +322,7 @@
                   class="d-block w-100"
                   alt="mars"
                   title="Mars"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -320,6 +331,7 @@
                   class="d-block w-100"
                   alt="neptune"
                   title="Neptune"
+                  height="330"
                 />
               </div>
               <div class="carousel-item">
@@ -328,6 +340,7 @@
                   class="d-block w-100"
                   alt="amas-stéllaire"
                   title="Amas-stéllaire"
+                  height="330"
                 />
               </div>
             </div>
@@ -355,10 +368,38 @@
               ></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="pied col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="reseaux col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <P class="text-white">Nous suivre</P>
+            <img src="PHOTOS\facebook.jpg" alt="facebook" height="30px" width="30px" class="facebook" title="facebebook"/>
+              <a href="#"></a>
+            <img src="PHOTOS\instagram.jpg" alt="instagram" height="30px" width="30px" class="instagram" title="facebook"/> 
+              <a href="#"></a> 
+            <img src="PHOTOS\twitter.jpg" alt="twitter" height="30px" width="30px" class="twitter" title="facebook"/>
+              <a href="#"></a>
+          </div> 
+          <div class="partenaire col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+            <p class="text-white">Nos partenaires</p>
+              <a href="https://saf-astronomie.fr/">
+                <img src="PHOTOS\Saf.jpg" alt="saf-astronomie" height="40px" width="40px" class="saf"/>
+              </a>
+              <a href="https://www.observatoiredeparis.psl.eu/">
+                <img src="" alt="" height="40px" width="40px" class="saf">
+              </a>
+          </div>
+
+        <div class="copyrigth">
+
+        </div>
+        <div class="maps">
+
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
