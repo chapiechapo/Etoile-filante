@@ -93,11 +93,13 @@ th {
 }
 
 .reseaux {
-  height: 155px;
+  height: 175px;
   width: 120px;
   display: flex;
   flex-direction: column;
   border: purple 5px solid;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
 .facebook {
@@ -105,7 +107,6 @@ th {
   flex-direction: column;
   margin-bottom: 8px;
   border: white 5px solid;
-  align-self: center;
 }
 
 .instagram {
@@ -123,9 +124,26 @@ th {
 
 .partenaire {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 18px;
   border: tomato 5px solid;
-  height: 200px;
-  width: 500px;
+  height: 115px;
+  width: 480px;
+  justify-content: space-between;
+}
+
+.cite {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+
+.nasa {
+  display: flex;
+  flex-direction: row;
+}
+
+.esa {
+  display: flex;
+  flex-direction: row;
 }
