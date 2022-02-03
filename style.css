@@ -1,17 +1,29 @@
 /*Page accueil*/
 
 /*header*/
-.filante {
+.spinning {
   border: white 5px solid;
 }
 
 /*section*/
+.part_1 {
+  margin-bottom: 30px;
+}
+
 .association {
   border-radius: 70px;
   border: 6px solid white;
 }
 
-.objectif {
+.part_2 {
+  margin-bottom: 30px;
+}
+
+.part_3 {
+  margin-bottom: 30px;
+}
+
+.objective {
   border-radius: 70px;
   border: 6px solid white;
   padding-left: 15px;
@@ -34,27 +46,20 @@ p {
   padding-left: 10px;
 }
 
-.observatoire {
-  margin-left: 200px;
-  height: 380px;
-  width: 1200px;
+.part_4 {
+  margin-bottom: 30px;
 }
 
-.objets,
-.planétes {
-  font-weight: bold;
-}
-
-.tableau {
+.list {
   display: flex;
   flex-direction: row;
   width: 990px;
-  height: 410px;
+  height: 440px;
 }
 
 table {
   height: 400px;
-  width: 445px;
+  width: 425px;
   color: white;
 }
 
@@ -64,86 +69,132 @@ th {
   border: white 5px solid;
 }
 
+th {
+  font-size: 20px;
+}
+
 .caroussel {
   display: flex;
-  margin-top: 15px;
+  margin-top: 30px;
   flex-direction: row;
-  height: 400px;
-  width: 1400px;
+  height: 390px;
+  width: 1500px;
 }
 
 .carousel-inner {
-  width: 470px;
-  border: white 5px solid;
+  width: 430px;
+  border: white 6px solid;
+  border-radius: 20px;
+}
+
+.table_photos {
+  border: 6px solid white;
+  border-radius: 10px;
 }
 
 /* footer */
 
-.pied {
-  border: white 5px solid;
-  height: 400px;
-  width: 1560px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-bottom: 15px;
-  padding-top: 45px;
+.foot {
+  height: 650px;
   display: flex;
   flex-direction: column;
-  align-self: stretch;
+  border: 6px solid white;
+  border-radius: 70px;
 }
 
-.reseaux {
-  height: 175px;
-  width: 120px;
+.part_5 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.networks {
+  height: 45px;
+  width: 1500px;
   display: flex;
-  flex-direction: column;
-  border: purple 5px solid;
-  align-items: center;
-  margin-bottom: 5px;
+  flex-direction: row;
+  margin-left: 3px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.follow {
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  height: 80px;
+  align-items: flex-start;
+  margin-left: 5px;
+  margin-bottom: 20px;
 }
 
 .facebook {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
+  flex-direction: row;
+  margin-right: 40px;
   border: white 5px solid;
 }
 
 .instagram {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
+  flex-direction: row;
+  margin-right: 40px;
   align-self: center;
 }
 
 .twitter {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-self: center;
 }
 
-.partenaire {
+.partner_group {
+  width: 1500px;
   display: flex;
   flex-direction: row;
-  margin-top: 18px;
-  border: tomato 5px solid;
-  height: 115px;
-  width: 480px;
-  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.cite {
+.partners {
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  width: 1500px;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+
+.city {
   display: flex;
   flex-direction: row;
   margin-left: 5px;
+  margin-right: 20px;
 }
 
 .nasa {
   display: flex;
   flex-direction: row;
+  margin-right: 20px;
 }
 
 .esa {
+  display: flex;
+  flex-direction: row;
+}
+
+.localization {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.maps {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.copyrigth {
   display: flex;
   flex-direction: row;
 }
