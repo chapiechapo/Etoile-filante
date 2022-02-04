@@ -13,54 +13,382 @@
       les confins de notre galaxie. Bien sûr, nos événements sont ouverts à tout public."
     />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
     <title>Association d'astronomie L'étoile filante</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <header>
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <div class="container-fluid">
+          <a class="navbar-brand ms-2" href="#">
+            <img
+              src="PHOTOS/Filante.jpg
+            "
+              alt="logo"
+              height="220"
+              width="370"
+              class="spinning"
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white mx-5"
+                  aria-current="page"
+                  href="reception.html"
+                  >ACCUEIL</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-5" href="events.html"
+                  >EVENEMENTS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-5" href="contact.html"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
-      <main class="page-accueil col-12 col-sm-12 col-md-12 col-xl-12">
-        <section class="col-12 col-sm-12 col-md-12 col-xl-12">
-          <h1>L'étoile filante</h1>
-          <div class="observation">
-        <div class="card">
-          <div class="card-body">
-            <img
-              src="PHOTOS\Observatoire.jpg"
-              class="card-img-top" height="400px"
-              alt="observatoire"
-            />
+    <main class="container-fluid">
+      <section>
+        <article class="events col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="events_groups card-group">
+            <div class="article_1 col-12 col-md-4 col-lg-4 col-xl-4">
+              <div class="card">
+                <h5 class="card-title">Nuits des étoiles d'hiver</h5>
+                <img
+                  src="PHOTOS/evenement-1.jpg"
+                  class="card-img-top"
+                  alt="voie-lactée"
+                  style="width: 15rem"
+                />
+                <div class="card-body">
+                  <p class="justify card-text">
+                    Le ciel d’hiver aussi a droit à ses Nuits des étoiles ! Pour
+                    commencer l'année, l’Association L'étoile filante vous
+                    propose de contempler les étoiles et constellations de la
+                    voûte céleste en pleine saison hivernale.
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-calendar4-week"></i>
+                    <b>Du 22 au 29 janvier</b> en compagnie des clubs et
+                    associations au travers d’une veillée aux étoiles
+                    exceptionnelle.
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-star-fill"></i>
+                    <b>Le 22 janvier</b> nous aurons deux très beaux passages de
+                    l'ISS (18h09 et 19h46) au-dessus de la France, avec un lever
+                    de l'ISS juste à côté de Jupiter pour son 1er passage.
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-star-fill"></i>
+                    <b>Le 26 janvier</b> à 6h30, il y aura une très belle
+                    occultation de l'étoile double Zubenelgenubi (visible à
+                    l'oeil nu, mag 2.75) par la Lune. Du coup visible à l'œil,
+                    aux jumelles et au télescope.
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-star-fill"></i>
+                    <b>Le 29 janvier</b> la Lune est en conjonction avec Mars à
+                    l’aube à 5°. Vénus est à 10° sur la gauche de Mars.
+                  </p>
+                  <div class="card-footer">
+                    <small class="justify text-muted">
+                      Alors préparez bouillotes et manteaux pour profitez de la
+                      pureté des nuits d’hiver pour contempler le ciel nocturne
+                      !</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article_2 col-12 col-md-4 col-lg-4 col-xl-4">
+              <div class="card">
+                <h5 class="card-title">Nuits des étoiles</h5>
+                <img
+                  src="PHOTOS/evenement-3.jpg"
+                  class="card-img-top"
+                  alt="nuit étoilé"
+                  style="width: 15rem"
+                />
+                <div class="card-body">
+                  <p class="justify card-text">
+                    <b
+                      >La nuits des étoiles se déroulent les 6, 7 et 8 août 2022
+                      !</b
+                    >
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-stars"></i>
+                    En effet, grâce à l’absence de Lune le week-end du 8 août,
+                    dès la nuit tombée les constellations du triangle d’été – la
+                    Lyre, le Cygne et l’Aigle permettent de s’orienter
+                    facilement et de suivre le poudroiement de la Voie Lactée du
+                    nord au sud, depuis Cassiopée et Persée, jusqu’au Scorpion
+                    et au Sagittaire, en direction du centre galactique. Plus
+                    que jamais les étoiles filantes signent l’esprit des Nuits
+                    des étoiles. Le spectacle est gratuit, il est accessible à
+                    tous et ne nécessite aucune connaissance préalable. Seule la
+                    curiosité en est la clé d’accès. Mais mieux encore, le
+                    partage des émotions peut s’accompagner d’un récit où se
+                    transmettent des connaissances quand, l’œil à la lunette ou
+                    au télescope, la découverte est guidée par un observateur
+                    instruit.
+                  </p>
+                  <div class="card-footer">
+                    <small class="justify text-muted">
+                      L’époque est idéale. C’est l’été et la douceur des
+                      températures nocturnes incite à veiller. Une très bonne
+                      conjonction astronomique assure les conditions du
+                      spectacle naturel.</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article_3 col-12 col-md-4 col-lg-4 col-xl-4">
+              <div class="card">
+                <h5 class="card-title">Rencontres photographiques</h5>
+                <img
+                  src="PHOTOS/evenement-2.jpg"
+                  alt="Photographie étoilé"
+                  style="width: 15rem"
+                />
+                <div class="card-body">
+                  <p class="justify card-text">
+                    <b
+                      >Les amoureux de la photographie du ciel et des paysages
+                      nocturnes se retrouveront du 21 au 25 septembre 2022.</b
+                    >
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-camera"></i>
+                    Premier rassemblement du genre, organisé par l’Association
+                    L'étoile filante. Les photographes d’orages, de paysages
+                    nocturnes, d’étoiles et d’objets célestes ou les néophytes
+                    qui souhaitent s'y mettre se retrouvent durant cinq jours
+                    pour partager leurs clichés, échanger leurs techniques,
+                    tester du matériel et pratiquer ensemble dans une ambiance
+                    d’été indien.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="article_4 col-12 col-md-6 col-lg-6 col-xl-6">
+              <div class="card">
+                <h5 class="card-title">Rencontres du ciel et de l'espace</h5>
+                <img
+                  src="PHOTOS/evenement-4.jpg"
+                  alt="planète terre"
+                  style="width: 15rem"
+                />
+                <div class="card-body">
+                  <p class="justify card-text">
+                    Les Rencontres du Ciel et de l’Espace s’imposent comme le
+                    rendez-vous incontournable des passionnés et des curieux du
+                    ciel. Avec ses 2500 visiteurs journaliers, elles sont
+                    indubitablement le plus important point de rendez-vous de la
+                    communauté astronomique, professionnelle et amateur, en
+                    Europe.
+                  </p>
+                  <p class="justify card-text">
+                    <b>Réservez votre week-end du 11 novembre 2022</b> pour un
+                    événement d’une rare intensité. Celui-ci propose 150
+                    conférences, table-rondes, forums ou ateliers afin de
+                    satisfaire la curiosité d’un large public. Découvrez la plus
+                    grande galerie marchande consacrée à l'astronomie valorisé
+                    par des expositions, des présentations ainsi que la
+                    contribution des acteurs scientifiques et industriels dans
+                    le développement de nos connaissances.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="article-5 col-12 col-md-6 col-lg-6 col-xl-6">
+              <div class="card">
+                <h5 class="card-title">Festival des 2 infinis</h5>
+                <img
+                  src="PHOTOS/evenement-5.jpg"
+                  alt="infinis"
+                  style="width: 15rem"
+                />
+                <div class="card-body">
+                  <p class="justify card-text">
+                    <b>Du 11 septembre au 21 novembre</b> se déroulera la 11e
+                    édition de ce désormais célèbre rendez-vous francilien,
+                    devenu un incontournable pour tous les passionnés
+                    d'astronomie.
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-calendar4-week"></i>
+                    Deux soirées d'observation
+                    <b
+                      >"Montsouris sous les étoiles" le samedi 11 septembre et
+                      le samedi 9 octobre</b
+                    >
+                    organisée dans le cadre du Jour de la Nuit.
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-calendar4-week"></i>
+                    Une après-midi d'observation du Soleil, d'animation et de
+                    conférences,
+                    <b>le 11 septembre</b>.
+                  </p>
+                  <p class="justify card-text">
+                    <i class="bi bi-calendar4-week"></i>
+                    Des randonnées de découvertre du patrimoine astronomique
+                    <b>du 2 au 24 octobre les week-ends.</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--div card group-->
           </div>
-          <h2 class="card-title">Observatoire de Marcy-L'étoile</h2>
-        </div>
+        </article>
       </section>
     </main>
+    <footer class="part_5">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="card">
+          <div
+            class="foot card-body bg-dark text-white justify-content-xs-start justify-content-md-start justify-content-lg-center"
+          >
+            <div
+              class="networks justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <p class="text-white fs-4">Suivez-nous</p>
+            </div>
+            <div
+              class="follow justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <a href="#">
+                <img
+                  src="PHOTOS/facebook.jpg"
+                  alt="facebook"
+                  height="60"
+                  width="50"
+                  class="facebook"
+                  title="facebebook"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="PHOTOS/instagram.jpg"
+                  alt="instagram"
+                  height="60"
+                  width="50"
+                  class="instagram"
+                  title="facebook"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="PHOTOS/twitter.jpg"
+                  alt="twitter"
+                  height="60"
+                  width="50"
+                  class="twitter"
+                  title="facebook"
+                />
+              </a>
+            </div>
+            <div
+              class="partner_group justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <p class="text-white fs-4">Nos partenaires</p>
+            </div>
+            <div
+              class="partners justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <a href="https://www.cite-espace.com/">
+                <img
+                  src="PHOTOS/cite.jpg"
+                  alt="cite-espace-toulouse"
+                  height="100"
+                  width="170"
+                  class="city"
+                  title="cité de l'espace"
+                />
+              </a>
+              <a href="https://www.nasa.gov/">
+                <img
+                  src="PHOTOS/nasa.jpeg"
+                  alt="nasa"
+                  height="100"
+                  width="100"
+                  class="nasa"
+                  title="nasa"
+                />
+              </a>
+              <a href="https://www.esa.int/">
+                <img
+                  src="PHOTOS/ESA.jpg"
+                  alt="european space agency"
+                  height="100"
+                  width="100"
+                  class="esa"
+                  title="esa"
+                />
+              </a>
+            </div>
+            <div
+              class="localization text-white fs-4 justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <p>Localisez-nous</p>
+            </div>
+            <div
+              class="maps justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <a
+                href="https://goo.gl/maps/R2qbTVGtrkHe271q8"
+                title="Ou nous trouvez"
+              >
+                <img
+                  src="PHOTOS/place.jpg"
+                  alt="place"
+                  height="50"
+                  width="50"
+                />
+              </a>
+            </div>
+            <div
+              class="copyrigth justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <p class="text-white ms-3">
+                L'étoile filante - 2022 | &copy; Tous droits réservés
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
