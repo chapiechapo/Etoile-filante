@@ -166,14 +166,14 @@ th {
 .city {
   display: flex;
   flex-direction: row;
-  margin-left: 5px;
+
   margin-right: 20px;
 }
 
 .nasa {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .esa {
@@ -202,7 +202,6 @@ th {
 /*page events*/
 
 .events {
-  border: blueviolet 5px solid;
   display: flex;
   flex-direction: row;
   height: auto;
@@ -211,40 +210,32 @@ th {
   background-color: white;
 }
 
-.events_groups {
-}
-
 .article_1 {
   display: flex;
   flex-direction: column;
-  border: chartreuse 5px solid;
 }
 
 .article_2 {
   display: flex;
   flex-direction: column;
-  border: darkgoldenrod 5px solid;
   height: auto;
 }
 
 .article_3 {
   display: flex;
   flex-direction: column;
-  border: darkolivegreen 5px solid;
   height: auto;
 }
 
 .article_4 {
   display: flex;
   flex-direction: column;
-  border: brown 5px solid;
   height: auto;
 }
 
 .article_5 {
   display: flex;
   flex-direction: column;
-  border: brown 5px solid;
   height: auto;
 }
 
