@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="L'association d'astronomie l'étoile filante vous présente ces événements nationaux. 
+      Situé à Marcy l'étoile en métropole de Lyon dans le département Auvergne-Rhône-Alpes, 
+      vous pourrez pratiquer l'observation du ciel profond et planétaire. Des astronomes amateurs 
+      et professionnels disposerons de jumelles et des télescopes afin de vous faire voyager dans 
+      les confins de notre galaxie. Bien sûr, nos événements sont ouverts à tout public."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
+    <title>Association d'astronomie L'étoile filante</title>
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-2" href="#">
+            <img
+              src="PHOTOS/Filante.jpg
+            "
+              alt="logo"
+              height="220"
+              width="370"
+              class="spinning"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white mx-3"
+                  aria-current="page"
+                  href="reception.html"
+                  >ACCUEIL</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-3" href="events.html"
+                  >EVENEMENTS</a
+                >
+              </li>
+              <div class="dropdown">
+                <button
+                  class="btn btn-dark dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SE FORMER
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" href="#">Stages et Séjours</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Stages 1-2-3 étoiles</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Stage Petite Ourse</a>
+                  </li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-3" href="contact.html"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <section
+        class="header_contact col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+      >
+        <div class="astronaut">
+          <div class="card border-0">
+            <div class="card-body">
+              <img
+                src="PHOTOS/Astronaute.jpg"
+                class="photo_astronaut card-img-top img-fluid"
+                alt="astronaute"
+              />
+              <h4 class="card-title text-center mt-4 mb-4">
+                Contacter l'association
+              </h4>
+              <p class="card-text text-center">L'Etoile filante</p>
+              <p class="card-text text-center">
+                1171 Av. de Lacroix-Laval 69280 Marcy-l'Etoile
+              </p>
+              <p class="card-text text-center">
+                <i class="bi bi-telephone-fill"></i> 09 01 12 67 49
+              </p>
+              <p class="card-text text-center">
+                <i class="bi bi-envelope"></i>
+                <a href="mailto"> etoile.filante69@gmail.com</a>
+              </p>
+              <div class="gift card-footer">
+                <small class=>
+                  Vous pouvez également soutenir l'association en faisant un don !
+                </small>
+              <button type="button" class="gift btn btn-danger ms-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Faire un Don
+              </button>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Je fais un don</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form method="#" action="#">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="firstAmount" id="firstAmount1">
+                          <label class="form-check-label" for="firstAmount1">20.00 €</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="secondAmount" id="secondAmount2">
+                          <label class="form-check-label" for="secondAmount2">50.00 €</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="thirdAmount" id="thirdAmount3">
+                          <label class="form-check-label" for="thirdAmount3">100.00 €</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="fourthAmount" id="fourthAmount4">
+                          <label class="form-check-label" for="fourthAmount4">200.00 €</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="fifthtAmount" id="fifthAmount5">
+                          <label class="form-check-label" for="fifthAmount5">Autre montant :</label>
+                          <input type="number" name="fifthAmount" id="fifthAmount5">
+                        </div>
+                      </form> 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Faire un don</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="body_contact">
+        <form method="#" post="#">
+          <div class="form_contact">
+            <div class="input-group mb-2">
+              <div class="row">
+                <div class="col-6">
+                  <label
+                    for="formControlInput1"
+                    class="form-label text-white mb-3 mt-3"
+                    >Nom</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formControlInput1"
+                    placeholder="Nom"
+                  />
+                </div>
+                <div class="col-6">
+                  <label
+                    for="formControlInput2"
+                    class="form-label text-white mb-3 mt-3"
+                    >Prénom</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formControlInput2"
+                    placeholder="Prénom"
+                  />
+                </div>
+                <div class="col-8">
+                  <label
+                    for="formControlInput3"
+                    class="form-label text-white mb-3 mt-3"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="formControlInput3"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-8">
+                  <label
+                    for="formControlInput4"
+                    class="form-label text-white mb-3 mt-3"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control mb-3"
+                    id="formControlInput4"
+                    rows="4"
+                    placeholder="Votre message"
+                  ></textarea>
+                </div>
+                <div class="col-5">
+                  <button class="btn btn-dark mb-3" type="submit">
+                    Envoyer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="part_5">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="card">
+          <div
+            class="foot card-body bg-dark text-white justify-content-xs-start justify-content-md-start justify-content-lg-center"
+          >
+            <div
+              class="networks justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <p class="text-white fs-4">Suivez-nous</p>
+            </div>
+            <div
+              class="follow justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <a href="#">
+                <img
+                  src="PHOTOS/facebook.jpg"
+                  alt="facebook"
+                  height="40"
+                  width="50"
+                  class="facebook"
+                  title="facebebook"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="PHOTOS/instagram.jpg"
+                  alt="instagram"
+                  height="40"
+                  width="50"
+                  class="instagram"
+                  title="facebook"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="PHOTOS/twitter.jpg"
+                  alt="twitter"
+                  height="40"
+                  width="50"
+                  class="twitter"
+                  title="facebook"
+                />
+              </a>
+            </div>
+            <div
+              class="partner_group justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <p class="text-white fs-4">Nos partenaires</p>
+            </div>
+            <div
+              class="partners justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <a href="https://www.cite-espace.com/">
+                <img
+                  src="PHOTOS/cite.jpg"
+                  alt="cite-espace-toulouse"
+                  height="100"
+                  width="180"
+                  class="city"
+                  title="cité de l'espace"
+                />
+              </a>
+              <a href="https://www.nasa.gov/">
+                <img
+                  src="PHOTOS/nasa.jpeg"
+                  alt="nasa"
+                  height="100"
+                  width="100"
+                  class="nasa"
+                  title="nasa"
+                />
+              </a>
+              <a href="https://www.esa.int/">
+                <img
+                  src="PHOTOS/ESA.jpg"
+                  alt="european space agency"
+                  height="100"
+                  width="100"
+                  class="esa"
+                  title="esa"
+                />
+              </a>
+            </div>
+            <div
+              class="localization text-white fs-4 justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <p>Localisez-nous</p>
+            </div>
+            <div
+              class="maps justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <a
+                href="https://goo.gl/maps/2RayfXMdmrBzeUH16"
+                title="Ou nous trouvez"
+              >
+                <img
+                  src="PHOTOS/place.jpg"
+                  alt="place"
+                  height="50"
+                  width="50"
+                />
+              </a>
+            </div>
+            <div
+              class="copyrigth justify-content-xs-start justify-content-md-start justify-content-lg-center"
+            >
+              <p class="text-white ms-3">
+                L'étoile filante - 2022 | &copy; Tous droits réservés
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,11 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Kalam:wght@700&family=Mali:ital,wght@1,700&display=swap");
+
+header {
+  font-family: "Kalam", cursive;
+}
+
 /*Page accueil*/
 
 /*header*/
+
 .spinning {
   border: white 5px solid;
 }
 
 /*section*/
+
 .part_1 {
   margin-bottom: 30px;
 }
@@ -247,13 +255,41 @@ th {
   height: auto;
 }
 
-h6 {
-  margin-top: 15px;
-  margin-left: 5px;
-}
-
 .justify {
   text-align: justify;
 }
 
 /* Page contact */
+
+.header_contact {
+  height: auto;
+  width: auto;
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+.astronaut {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 750px;
+  width: 1500px;
+}
+
+.photo_astronaut {
+  height: 380px;
+  width: 1080px;
+}
+
+.body_contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.gift {
+  text-align: center;
+}
