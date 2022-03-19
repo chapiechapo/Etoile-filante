@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Mali:ital,wght@1,700&family=Padauk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Mali:ital,wght@1,700&family=Texturina:wght@100&display=swap");
 
 header {
   font-family: "Kalam", "Lucida Sans", sans-serif, cursive;
@@ -13,12 +13,12 @@ h5 {
 }
 
 p {
-  font-family: "Padauk", "Courier New", Courier, sans-serif;
+  font-family: "Texturina", "Courier New", "Courier", serif;
   font-size: 19px;
 }
 
 small {
-  font-family: "Padauk", "Courier New", Courier, sans-serif;
+  font-family: "Texturina", "Courier New", "Courier", serif;
   font-size: 15px;
 }
 
@@ -185,7 +185,6 @@ th {
   flex-direction: row;
   height: 130px;
   width: 1500px;
-  justify-content: start;
   margin-bottom: 20px;
 }
 
@@ -306,6 +305,13 @@ th {
   flex-direction: row;
   justify-content: center;
   margin-left: 15px;
+}
+
+h6 {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .gift {

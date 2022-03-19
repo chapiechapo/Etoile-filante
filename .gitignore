@@ -1,0 +1,12 @@
+
+#Pas de fichier .jpg du Répertoire PHOTOS
+
+PHOTOS/**/*.jpg
+
+#Pas de fichier .txt
+
+*.txt
+
+#Pas de fichier .css
+
+*.css
