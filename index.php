@@ -1,5 +1,5 @@
 <?php
 
-include_once("events.html");
+include_once("reception.html");
 
 ?>
