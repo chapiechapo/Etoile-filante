@@ -34,8 +34,8 @@
               src="PHOTOS/Filante.jpg
             "
               alt="logo"
-              height="220"
-              width="370"
+              height="200"
+              width="240"
               class="spinning"
             />
           </a>
@@ -125,112 +125,114 @@
               </p>
               <div class="gift card-footer">
                 <small> Vous pouvez également soutenir l'association ! </small>
+              </div>
+              <div class="gift_button">
                 <button
                   type="button"
-                  class="gift btn btn-danger ms-3"
+                  class="gift_button btn btn-danger ms-3"
                   data-bs-toggle="modal"
                   data-bs-target="#staticBackdrop"
                 >
                   Faire un Don
                 </button>
-                <div
-                  class="modal fade"
-                  id="staticBackdrop"
-                  data-bs-backdrop="static"
-                  data-bs-keyboard="false"
-                  tabindex="-1"
-                  aria-labelledby="staticBackdropLabel"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">
-                          Je fais un don
-                        </h5>
-                        <button
-                          type="button"
-                          class="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                      </div>
-                      <div class="modal-body">
-                        <form>
-                          <div class="form-check">
-                            <input
-                              class="form-check-input"
-                              type="radio"
-                              name="firstAmount"
-                              id="firstAmount1"
-                            />
-                            <label class="form-check-label" for="firstAmount1"
-                              >20.00 €</label
-                            >
-                          </div>
-                          <div class="form-check">
-                            <input
-                              class="form-check-input"
-                              type="radio"
-                              name="secondAmount"
-                              id="secondAmount2"
-                            />
-                            <label class="form-check-label" for="secondAmount2"
-                              >50.00 €</label
-                            >
-                          </div>
-                          <div class="form-check">
-                            <input
-                              class="form-check-input"
-                              type="radio"
-                              name="thirdAmount"
-                              id="thirdAmount3"
-                            />
-                            <label class="form-check-label" for="thirdAmount3"
-                              >100.00 €</label
-                            >
-                          </div>
-                          <div class="form-check">
-                            <input
-                              class="form-check-input"
-                              type="radio"
-                              name="fourthAmount"
-                              id="fourthAmount4"
-                            />
-                            <label class="form-check-label" for="fourthAmount4"
-                              >200.00 €</label
-                            >
-                          </div>
-                          <div class="form-check">
-                            <input
-                              class="form-check-input"
-                              type="radio"
-                              name="fifthtAmount"
-                              id="fifthAmount5"
-                            />
-                            <label class="form-check-label" for="fifthAmount5"
-                              >Autre montant :</label
-                            >
-                            <input
-                              type="number"
-                              name="fifthAmount"
-                              id="fifthAmount6"
-                            />
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                        <button type="button" class="btn btn-success">
-                          Faire un don
-                        </button>
-                      </div>
+              </div>
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Je fais un don
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="firstAmount"
+                            id="firstAmount1"
+                          />
+                          <label class="form-check-label" for="firstAmount1"
+                            >20.00 €</label
+                          >
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="secondAmount"
+                            id="secondAmount2"
+                          />
+                          <label class="form-check-label" for="secondAmount2"
+                            >50.00 €</label
+                          >
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="thirdAmount"
+                            id="thirdAmount3"
+                          />
+                          <label class="form-check-label" for="thirdAmount3"
+                            >100.00 €</label
+                          >
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="fourthAmount"
+                            id="fourthAmount4"
+                          />
+                          <label class="form-check-label" for="fourthAmount4"
+                            >200.00 €</label
+                          >
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="fifthtAmount"
+                            id="fifthAmount5"
+                          />
+                          <label class="form-check-label" for="fifthAmount5"
+                            >Autre montant :</label
+                          >
+                          <input
+                            type="number"
+                            name="fifthAmount"
+                            id="fifthAmount6"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-success">
+                        Faire un don
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -365,8 +367,8 @@
                 <img
                   src="PHOTOS/cite.jpg"
                   alt="cite-espace-toulouse"
-                  height="100"
-                  width="210"
+                  height="60"
+                  width="60"
                   class="city"
                   title="cité de l'espace"
                 />
@@ -375,8 +377,8 @@
                 <img
                   src="PHOTOS/nasa.jpeg"
                   alt="nasa"
-                  height="80"
-                  width="80"
+                  height="60"
+                  width="60"
                   class="nasa"
                   title="nasa"
                 />
@@ -385,8 +387,8 @@
                 <img
                   src="PHOTOS/ESA.jpg"
                   alt="european space agency"
-                  height="80"
-                  width="80"
+                  height="60"
+                  width="60"
                   class="esa"
                   title="esa"
                 />
