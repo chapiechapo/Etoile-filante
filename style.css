@@ -22,7 +22,7 @@ small {
   font-size: 15px;
 }
 
-/*Page accueil*/
+/*Page Reception*/
 
 /*header*/
 
@@ -34,6 +34,13 @@ small {
 
 .part_1 {
   margin-bottom: 30px;
+}
+
+.observatoire {
+  height: 100px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
 }
 
 .association {
@@ -85,7 +92,7 @@ p {
 
 table {
   height: 400px;
-  width: 425px;
+  width: 210px;
   color: white;
 }
 
@@ -108,7 +115,7 @@ th {
 }
 
 .carousel-inner {
-  width: 430px;
+  width: 210px;
   border: white 6px solid;
   border-radius: 20px;
 }
@@ -155,14 +162,14 @@ th {
 .facebook {
   display: flex;
   flex-direction: row;
-  margin-right: 40px;
+  margin-right: 20px;
   border: white 5px solid;
 }
 
 .instagram {
   display: flex;
   flex-direction: row;
-  margin-right: 40px;
+  margin-right: 20px;
   align-self: center;
 }
 
@@ -183,7 +190,7 @@ th {
 .partners {
   display: flex;
   flex-direction: row;
-  height: 130px;
+  height: 90px;
   width: 1500px;
   margin-bottom: 20px;
 }
@@ -221,6 +228,85 @@ th {
 .copyrigth {
   display: flex;
   flex-direction: row;
+}
+
+/*Media queries Reception*/
+
+@media screen and (min-width: 480px) {
+  .spinning {
+    width: 300px;
+  }
+
+  .observatoire {
+    width: 400px;
+    height: 200px;
+  }
+
+  table {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .spinning {
+    width: 400px;
+  }
+
+  .observatoire {
+    width: 650px;
+    height: 220px;
+  }
+
+  .city {
+    width: 190px;
+  }
+
+  .carousel-inner {
+    width: 430px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .observatoire {
+    width: 750px;
+    height: 280px;
+  }
+
+  .facebook,
+  .instagram,
+  .twitter {
+    width: 60px;
+    height: 60px;
+  }
+
+  .city {
+    width: 200px;
+    height: 100px;
+  }
+
+  .nasa {
+    width: 100px;
+    height: 100px;
+  }
+
+  .esa {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .observatoire {
+    width: 950px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .observatoire {
+    width: 1500px;
+    height: 350px;
+  }
 }
 
 /*page events*/
@@ -291,7 +377,7 @@ th {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 750px;
+  height: 920px;
   width: 1500px;
 }
 
@@ -316,4 +402,11 @@ h6 {
 
 .gift {
   text-align: center;
+  height: 100px;
+}
+
+.gift_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
